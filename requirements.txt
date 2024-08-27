@@ -1,0 +1,10 @@
+pypdf
+langchain
+torch==1.12.1
+accelerate
+bitsandbytes
+transformers
+sentence_transformers
+faiss_cpu
+langchain_community
+chainlit
