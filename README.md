@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bfa638be-2440-4c89-8df7-97eb3d27774d)# Dog Breed Chat Bot
+# Dog Breed Chat Bot
 
 This repository contains a Dog Breed Chat Bot application built using Python and Natural Language Processing (NLP) techniques. The bot is designed to identify and provide information about different dog breeds based on user input.
 
