@@ -23,24 +23,17 @@ To set up the bot locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. **Create a main directory**
-   inside that create other directories
-   
-4. **Source Data:**
-   Create a data directory in the main folder
-   "data/"
-
-5. **Vectorstore**
+3. **Vectorstore**
 Create a vectorstores directory and inside that create db_faiss directory 
 "vectorstores/db_faiss"
 
-6. **Run the application:**
+4. **Run the application:**
    ```bash
    python ingest.py
    chainlit run model.py
    ```
 
-7. **Download the LLM Model:**
+5. **Download the LLM Model:**
    Download the LLM model from Hugging Face using the link below:
    - [Llama-2-7B-Chat GGML Model](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin)
    - Place the bin file in main directory
