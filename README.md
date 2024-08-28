@@ -1,4 +1,4 @@
-# Dog Breed Chat Bot
+![image](https://github.com/user-attachments/assets/bfa638be-2440-4c89-8df7-97eb3d27774d)# Dog Breed Chat Bot
 
 This repository contains a Dog Breed Chat Bot application built using Python and Natural Language Processing (NLP) techniques. The bot is designed to identify and provide information about different dog breeds based on user input.
 
@@ -23,15 +23,27 @@ To set up the bot locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. **Run the application:**
+3. **Create a main directory**
+   inside that create other directories
+   
+4. **Source Data:**
+   Create a data directory in the main folder
+   "data/"
+
+5. **Vectorstore**
+Create a vectorstores directory and inside that create db_faiss directory 
+"vectorstores/db_faiss"
+
+6. **Run the application:**
    ```bash
    python ingest.py
    chainlit run model.py
    ```
 
-4. **Download the LLM Model:**
+7. **Download the LLM Model:**
    Download the LLM model from Hugging Face using the link below:
    - [Llama-2-7B-Chat GGML Model](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin)
+   - Place the bin file in main directory
 
 ## Project Structure
 
@@ -42,6 +54,12 @@ To set up the bot locally, follow these steps:
 - **`llama-2-7b-chat.ggmlv3.q8_0.bin`**: This is the LLM model used for the chat bot.
 - **`requirements.txt`**: A list of Python packages required to run the project.
 
+  ## Please refer below image for files structure
+  ![image](https://github.com/user-attachments/assets/248533fa-93a0-40ca-8856-1031ddf4206c)
+
+
 ---
+
+
 
 You can update the README based on any further details or adjustments you might need!
