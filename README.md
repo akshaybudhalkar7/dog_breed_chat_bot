@@ -53,6 +53,7 @@ Create a vectorstores directory and inside that create db_faiss directory
 - **`vectorstores/db_faiss/`**: This directory contains `index.faiss` and `index.pkl`.
 - **`llama-2-7b-chat.ggmlv3.q8_0.bin`**: This is the LLM model used for the chat bot.
 - **`requirements.txt`**: A list of Python packages required to run the project.
+- **`chainlit.md`**: Chainlit lib details.
 
   ## Please refer below image for files structure
   ![image](https://github.com/user-attachments/assets/248533fa-93a0-40ca-8856-1031ddf4206c)
