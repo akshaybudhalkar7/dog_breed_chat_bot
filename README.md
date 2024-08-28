@@ -1,7 +1,3 @@
-Here's a formatted README for your "Dog Breed Chat Bot" repository:
-
----
-
 # Dog Breed Chat Bot
 
 This repository contains a Dog Breed Chat Bot application built using Python and Natural Language Processing (NLP) techniques. The bot is designed to identify and provide information about different dog breeds based on user input.
