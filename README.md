@@ -36,7 +36,7 @@ To set up the bot locally, follow these steps:
 ## Project Structure
 
 - **`ingest.py`**: This Python script creates a vector store from the `Dog-breed-book-low-resolution.pdf`.
-- **`models.py`**: This script is used for running the chat bot.
+- **`model.py`**: This script is used for running the chat bot.
 - **`data/`**: The directory contains `dog-breed-book-low-resolution.pdf` that is used by `ingest.py` to create a vector store.
 - **`vectorstores/db_faiss/`**: This directory contains `index.faiss` and `index.pkl`.
 - **`llama-2-7b-chat.ggmlv3.q8_0.bin`**: This is the LLM model used for the chat bot.
